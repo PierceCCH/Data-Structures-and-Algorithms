@@ -8,6 +8,7 @@ class Array:
     
     def append(self, item):
         self.data[self.length] = item
+        
         self.length+=1
     
     def pop(self):
