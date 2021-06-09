@@ -1,6 +1,3 @@
-from typing import Reversible
-
-
 def mergeSort(arrA, arrB):
     if len(arrA) == 0 or len(arrB) == 0:
         return arrA + arrB
